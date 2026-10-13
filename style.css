@@ -1,0 +1,112 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Header */
+.site-header {
+    background: linear-gradient(135deg, #14213d, #264e86);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile-name {
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* NAVBAR */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: #14213d;
+}
+
+/* KONTEN UTAMA */
+.main-content {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+/* PROFIL */
+.profile-section {
+    background-color: white;
+    margin-bottom: 22px;
+    padding: 25px 30px;
+    border-radius: 12px;
+    border-left: 5px solid #3b82f6;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+/* Judul bagian */
+.section-title {
+    color: #1e3a5f;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+/* Daftar pendidikan, keterampilan, dan hobi */
+.profile-list {
+    padding-left: 22px;
+}
+
+.profile-list li {
+    margin-bottom: 6px;
+}
+
+/* Link */
+.content-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content-link:hover {
+    color: #1e3a5f;
+    text-decoration: underline;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #14213d;
+    color: #dbeafe;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
